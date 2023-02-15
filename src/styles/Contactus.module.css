@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+.hero{
+    display: flex;
+}
+.left{
+    background-color: white;
+    height: 100vh;
+    margin-bottom: 0px;
+    padding: 80px 60px;
+    padding-right: 40px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.wrapper{
+    display: flex;
+    column-gap: 20px;
+    align-items: flex-start;
+}
+.wrapper svg{
+    font-size: 26px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 80%;
+}
+.info h3{
+    font-size: 17px;
+}
+.info p{
+    font-size: 14px;
+    color: rgb(72, 72, 72);
+}
+.right{
+    width: 75%;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.header h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.header p{
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+footer{
+    margin-top: 0px;
+}
+.right form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 70%;
+}
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.inputWrapper label{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(52, 52, 52);
+}
+.inputWrapper input{
+    padding: 10px 18px;
+    border: 1px solid rgb(192, 192, 192);
+    outline: none;
+    border-radius: 8px;
+}
+.inputWrapper input:focus{
+    border: 1px solid #6773E5;
+}
+.inputWrapper input::placeholder{
+    color: gray;
+    font-size: 13px;
+}
+.inputWrapper textarea::placeholder{
+    color: gray;
+    font-size: 13px;
+}
+.inputWrapper textarea:focus{
+    border: 1px solid #6773E5;
+}
+.inputWrapper textarea{
+    padding: 10px 18px;
+    border: 1px solid rgb(192, 192, 192);
+    outline: none;
+    border-radius: 8px;
+    resize: vertical;
+}
+.right button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #6773E5;
+    border: none;
+    border-radius: 8px;
+}
+.right button:hover{
+    background-color: rgb(62, 75, 199);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+@media(max-width: 1300px){
+    .right form{
+        width: 80%;
+    }
+    nav{
+        padding: 25px 50px;
+    }
+    .left{
+        padding: 80px 50px;
+    }
+    .right{
+        padding: 80px 100px;
+    }
+    
+}
+@media(max-width: 1000px){
+    .wrapper img{
+        width: 20px;
+        height: 20px;
+    }
+    .info{
+        width: 100%;
+    }
+    .info h3{
+        font-size: 16px;
+    }
+    .info p{
+        font-size: 13px;
+    }
+    .right{
+        padding: 80px 60px;
+    }
+    .right form{
+        width: 100%;
+        
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .header p{
+        font-size: 13.5px;
+    }
+    .inputWrapper label{
+        font-size: 13.5px;
+    }
+    .inputWrapper input{
+        font-size: 13.5px;
+        padding: 10px 13px;
+    }
+    .inputWrapper textarea{
+        font-size: 13.5px;
+        padding: 10px 13px;
+        height: 100px;
+    }
+    .left{
+        padding: 80px 30px;
+        width: 30%;
+    }
+}
+@media(max-width: 750px){
+    .right{
+        width: 70%;
+        padding: 80px 50px;
+    }
+    .header h1{
+        font-size: 28px;
+    }
+}
+@media(max-width: 600px){
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    .header{
+        align-items: center;
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+}
+@media(max-width: 500px){
+    .right{
+        padding: 80px 20px;
+    }
+    .header h1{
+        font-size: 27px;
+    }
+}
