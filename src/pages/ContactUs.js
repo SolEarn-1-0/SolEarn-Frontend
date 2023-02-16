@@ -2,10 +2,12 @@ import Style from "../styles/Contactus.module.css";
 import {IoIosChatbubbles} from "react-icons/io"
 import {ImOffice} from "react-icons/im"
 import {BsFillTelephoneFill} from "react-icons/bs"
+import Navbar from "../components/Navbar"
 
 const Contactus = () => {
 
     return <>
+    <Navbar/>
         <div className={Style.body}>
             <div className={Style.hero}>
                 <section className={Style.left}>
