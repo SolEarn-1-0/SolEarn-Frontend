@@ -1,0 +1,113 @@
+
+
+.aboutHero{
+    padding: 80px 4%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.aboutHero .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 4px;
+}
+.aboutHero .heading h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+.aboutHero .heading p{
+    width: 55%;
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+}
+.statWrapper{
+    background-color: rgb(82, 82, 82);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 3%;
+    background-image: url(../Images/org.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.statCard{
+    width: 31.3%;
+    background-color: rgba(19, 19, 19, 0.686);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 15px;
+    padding: 40px 30px;
+    backdrop-filter: blur(2px);
+    
+}
+.statCard h1{
+    font-weight: 400;
+    font-size: 45px;
+}
+.statCard p:last-child{
+    font-size: 15px;
+    color: rgb(175, 175, 175);
+}
+.statCard p:first-child{
+    color: white;
+}
+.valuesWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.valuesHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 20px;
+    width: 60%;
+}
+.valuesHeading p:nth-child(1){
+    color: rgb(155, 9, 145);
+}
+.valuesHeading h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.valuesHeading p{
+    color: rgb(175, 175, 175);
+    margin-top: 5px;
+}
+.valuesCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 30px;
+    margin-top: 20px;
+}
+.valuesCard{
+    width: 31.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+}
+.valuesCard svg{
+    font-size: 30px;
+    color: rgb(108, 7, 102);
+}
+.valuesCard h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.valuesCard p{
+    font-size: 14.5px;
+    color: rgb(175, 175, 175);
+}
+
