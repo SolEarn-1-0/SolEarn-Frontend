@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  width: 100%;
+  /* background-color: red; */
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.navlogo h1{
+  color: white;
+  background-image: linear-gradient(to right, rgb(108, 7, 102), rgb(63, 3, 92));
+  background-clip: text;
+  text-fill-color: transparent;
+  background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  font-size: 35px;
+}
+
+.navlinks {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 3em;
+  /* background-color: blue; */
+  /* width: 35%; */
 }
 
-.App-link {
-  color: #61dafb;
+.navlinks a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbtns {
+  /* background-color: red; */
+  width: 20%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.navbtns button {
+  height: inherit;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+     color: rgb(245, 245, 245);
+}
+
+.navbtns button:nth-child(1) {
+  background-color: rgb(20, 20, 20);
+}
+
+.navbtns button:nth-child(2) {
+  background: linear-gradient(to right, rgb(108, 7, 102), rgb(63, 3, 92));
+
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.headerlft {
+  width: 60%;
+  /* padding: 75px 0px; */
+}
+
+.headerlft > h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  width: 95%;
+  font-weight: 500;
+}
+
+.headerlft > p {
+  width: 75%;
+  padding: 1.5em 0px;
+  font-size: 15px;
+}
+
+.headerlft > button {
+  width: 25%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, rgb(108, 7, 102), rgb(63, 3, 92));
+  color: inherit;
+  cursor: pointer;
+}
+
+.headerrght {
+  width: 40%;
 }
