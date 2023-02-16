@@ -111,3 +111,142 @@
     color: rgb(175, 175, 175);
 }
 
+@media(max-width: 1300px){
+    .aboutHero .heading p{
+        width: 70%;
+    }
+    .valuesHeading{
+        width: 80%;
+    }
+    .statCard{
+        padding: 30px 20px;
+    }
+}
+@media(max-width: 1000px){
+    .aboutHero .heading p{
+        width: 80%;
+        font-size: 14px;
+    }
+    .aboutHero .heading h1{
+        font-size: 38px;
+    }
+    .valuesHeading{
+        width: 80%;
+    }
+    .statCard{
+        padding: 30px 20px;
+        row-gap: 10px;
+    }
+    .statCard h1{
+        font-size: 35px;
+    }
+    .statCard p:first-child{
+        font-size: 14.5px;
+    }
+    .statCard p:last-child{
+        font-size: 14px;
+    }
+    .valuesHeading h2{
+        font-size: 30px;
+    }
+    .valuesHeading p{
+        font-size: 14px;
+    }
+    .valuesCard{
+        padding: 30px 15px;
+    }
+    .valuesCard h3{
+        font-size: 16px;
+    }
+    .valuesCard p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 750px){
+    .aboutHero .heading p{
+        width: 100%;
+    }
+    .aboutHero .heading h1{
+        font-size: 35px;
+    }
+    .statWrapper{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .statCard{
+        width: 48.5%;
+    }
+    .statCard h1{
+        font-size: 32px;
+    }
+    .statCard:last-child{
+        width: 100%;
+    }
+    .valuesHeading h2{
+        font-size: 28px;
+    }
+    .valuesCardWrapper{
+        row-gap: 20px;
+    }
+    .valuesCard{
+        width: 48.5%;
+    }
+}
+@media(max-width: 600px){
+    .valuesHeading{
+        width: 100%;
+    }
+    .statCard{
+        width: 100%;
+    }
+    .aboutHero .heading h1{
+        font-size: 30px;
+    }
+    .valuesCard{
+        width: 100%;
+    }
+    .valuesHeading h2{
+        font-size: 25px;
+    }
+    .statWrapper{
+        padding: 10px;
+        row-gap: 15px;
+    }
+    .statCard{
+        padding: 20px 10px;
+        row-gap: 6px;
+    }
+    .statCard h1{
+        font-size: 32px;
+    }
+}
+@media(max-width: 400px){
+    .aboutHero .heading h1{
+        font-size: 25px;
+    }
+    .aboutHero .heading p{
+        font-size: 13px;
+    }
+    .statCard h1{
+        font-size: 28px;
+    }
+    .statCard p{
+        font-size: 15px;
+    }
+    .valuesHeading h2{
+        font-size: 23px;
+    }
+    .valuesHeading p{
+        font-size: 13px;
+    }
+    .valuesCard{
+        padding: 20px 10px;
+        row-gap: 10px;
+    }
+    .valuesCard h3{
+        font-size: 15px;
+    }
+    .valuesCard p{
+        font-size: 13px;
+    }
+}

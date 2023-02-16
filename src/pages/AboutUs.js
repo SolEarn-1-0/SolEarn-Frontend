@@ -5,7 +5,7 @@ import {MdCollectionsBookmark} from "react-icons/md"
 const Aboutus = () => {
 
     return <>
-    <Navbar/>
+    {/* <Navbar/> */}
         <div className={Style.aboutHero}>
             <div className={Style.heading}>
                 <h1>We do things differently...</h1>
