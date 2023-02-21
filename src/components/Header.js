@@ -1,8 +1,10 @@
 import Images from '../Images/E-Wallet.svg'
+import Style from "../styles/Nav.module.css"
+
 const Header = () => {
   return (
 		<header>
-			<div className="headerlft">
+			<div className={Style.headerlft}>
 				<h1>
 					The easiest way to automate your crypto <span>payment</span>
 				</h1>
@@ -15,7 +17,7 @@ const Header = () => {
 				<button>Get Started</button>
 			</div>
 
-			<div className="headerrght">
+			<div className={Style.headerrght}>
 				<img src={Images} alt="" />
 			</div>
 		</header>
