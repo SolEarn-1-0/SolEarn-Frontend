@@ -1,9 +1,14 @@
-const Dashboard = () => {
-  return (
-    <div className="dashboard">
-      <h1>dashboard</h1>
-    </div>
-  )
-}
+/** @format */
 
-export default Dashboard
+import Navlogo from "../../components/navlogo";
+const Dashboard = () => {
+	return (
+		<div className="dashboard">
+			<div className="dashboardlft">
+				<Navlogo />
+			</div>
+		</div>
+	);
+};
+
+export default Dashboard;
