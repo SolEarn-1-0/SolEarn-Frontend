@@ -7,6 +7,7 @@ const Navlinks = () => {
 				<NavLink to={"/"}>Home</NavLink>
 				<NavLink to={"/wallet"}>Wallet</NavLink>
 				<NavLink to={"/wallet"}>Withdraw</NavLink>
+				<NavLink to={"/wallet"}>Swap</NavLink>
 			</div>
 			<div className="navbottom">
 				<NavLink to={"/profile"}>Settings</NavLink>

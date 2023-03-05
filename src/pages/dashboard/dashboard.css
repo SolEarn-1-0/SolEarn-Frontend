@@ -1,5 +1,16 @@
+body {
+  background-color: rgb(31, 32, 40);
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .dashboardlft {
-  background-color: rgb(45, 3, 45);
+  background-color: rgb(26, 27, 30);
+  /* background-color: rgb(45, 3, 45); */
   width: 20%;
   height: 100vh;
 }
@@ -46,4 +57,16 @@
 
 .navlinks a:hover {
   background-color: rgba(114, 52, 114, 0.686);
+}
+
+.dashboardrght {
+  /* background-color: aqua; */
+  width: 80%;
+  height: 100vh;
+}
+
+.cards {
+  background-color: rgb(40, 41, 49);
+  width: 35%;
+  height: 50px;
 }
