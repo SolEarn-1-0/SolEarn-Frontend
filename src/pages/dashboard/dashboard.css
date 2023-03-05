@@ -1,0 +1,49 @@
+.dashboardlft {
+  background-color: rgb(45, 3, 45);
+  width: 20%;
+  height: 100vh;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 600px;
+}
+
+.navtops {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: azure; */
+  justify-content: center;
+  margin-top: 5rem;
+  width: 90%;
+}
+
+.navbottom{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: aqua; */
+  width: 90%;
+}
+
+.navlinks a {
+  text-decoration: none;
+  background-color: rgba(67, 19, 67, 0.613);
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+}
+
+.navlinks a:hover {
+  background-color: rgba(114, 52, 114, 0.686);
+}

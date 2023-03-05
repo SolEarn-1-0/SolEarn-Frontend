@@ -2,6 +2,8 @@
 
 import Navlogo from "../../components/navlogo";
 import Navlinks from "../../components/dashboardcomp/navlink";
+import './dashboard.css'
+// import HomeIcon from "@mui/icons-material/Home";
 const Dashboard = () => {
 	return (
 		<div className="dashboard">
