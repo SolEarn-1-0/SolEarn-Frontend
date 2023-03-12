@@ -1,8 +1,10 @@
-const Card = () => {
+const Card = (props) => {
   return (
-		<div className="carditem">
-			<div className="cards"></div>
-		</div>
+		<div className="cards">
+				<h1>
+					{props.cardName}: <span className="price">{props.price}</span>
+				</h1>
+			</div>
 	);
 }
 export default Card
