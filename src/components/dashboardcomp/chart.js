@@ -1,83 +1,88 @@
 /** @format */
 
-import React, { PureComponent } from "react";
 import {
-	AreaChart,
-	Area,
+	LineChart,
 	XAxis,
 	YAxis,
 	CartesianGrid,
 	Tooltip,
 	ResponsiveContainer,
+  Line,
 } from "recharts";
 
 const data = [
 	{
-		name: "Page A",
-		uv: 4000,
-		pv: 2400,
-		amt: 2400,
+		name: "January",
+		price: 4000,
 	},
 	{
-		name: "Page B",
-		uv: 3000,
-		pv: 1398,
-		amt: 2210,
+		name: "February",
+		price: 6700,
 	},
 	{
-		name: "Page C",
-		uv: 2000,
-		pv: 9800,
-		amt: 2290,
+		name: "March",
+		price: 8000,
 	},
 	{
-		name: "Page D",
-		uv: 2780,
-		pv: 3908,
-		amt: 2000,
+		name: "April",
+		price: 19000,
 	},
 	{
-		name: "Page E",
-		uv: 1890,
-		pv: 4800,
-		amt: 2181,
+		name: "May",
+		price: 4000,
 	},
 	{
-		name: "Page F",
-		uv: 2390,
-		pv: 3800,
-		amt: 2500,
+		name: "June",
+		price: 4000,
 	},
 	{
-		name: "Page G",
-		uv: 3490,
-		pv: 4300,
-		amt: 2100,
+		name: "July",
+		price: 4000,
 	},
 ];
 
-export default function Chart() {
+export default function Chart(){
 
 
+	
 		return (
-			<ResponsiveContainer width="100%" aspect={3}>
-				<AreaChart
-					width={500}
-					height={400}
-					data={data}
-					margin={{
-						top: 10,
-						right: 30,
-						left: 0,
-						bottom: 0,
-					}}>
-					<CartesianGrid  horinzontal = "false" vertical = "true" />
-					<XAxis dataKey="name" tick={{ color: "rgb(209, 209, 211)" }} />
-					<YAxis />
-					<Tooltip />
-					<Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
-				</AreaChart>
-			</ResponsiveContainer>
+			<div style={{ width: "100%", height: 300 }}>
+				<ResponsiveContainer>
+					<LineChart
+						data={data}
+						margin={{
+							top: 10,
+							right: 30,
+							left: 0,
+							bottom: 0,
+						}}>
+						<CartesianGrid horizontal="" vertical="" />
+						<XAxis dataKey="name" tick={{ fill: "rgb(209, 209, 211)" }} />
+						<YAxis tick={{ fill: "rgb(209, 209, 211)" }} />
+						<Tooltip />
+						<Line
+							type="monotone"
+							dataKey="price"
+							stroke="#8884d8"
+							dot={{
+								fill: "rgb(209, 209, 211)",
+								stroke: "",
+								strokeWidth: 2,
+								r: 5,
+							}}
+							activeDot={{ r: 8 }}
+						/>
+						{/* <Area
+							type="monotone"
+							dataKey="uv"
+							stroke="#8884d8"
+							fill="#8884d8"
+						/> */}
+					</LineChart>
+				</ResponsiveContainer>
+			</div>
 		);
+
 }
+
 // strokeDasharray="3 3"
