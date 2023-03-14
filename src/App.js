@@ -7,6 +7,7 @@ import Dashboard from "./pages/dashboard/dashboard";
 import GetStarted from "./pages/getStarted";
 import BusinessRegisteration from "./pages/businessRegisteration";
 import WorkerRegisteration from "./pages/workerRegisteration";
+import Signin from "./pages/Signin";
 
 function App() {
   return<>
@@ -20,6 +21,7 @@ function App() {
         <Route path = "/getstarted" element = {<GetStarted/>} />
         <Route path = "/business/sign-up" element = {<BusinessRegisteration/>} />
         <Route path = "/worker/sign-up" element = {<WorkerRegisteration/>} />
+        <Route path = "/signin" element = {<Signin/>} />
       </Routes>
     </Router>
 

@@ -1,0 +1,120 @@
+
+.businessWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding: 40px 4%;
+}
+.formWrapper{
+    width: 40%;
+    background-color: rgb(38, 39, 48);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 60px 50px;
+    align-items: center;
+}
+.formWrapper form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+}
+.formWrapper .heading{
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+.formWrapper .heading h2{
+    font-weight: 500;
+}
+.formWrapper .inputWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.formWrapper .inputWrapper label{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.formWrapper .inputWrapper label{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(203, 203, 203);
+}
+.formWrapper .inputWrapper input{
+    padding: 10px 18px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: rgb(38, 39, 48);
+    outline: none;
+    color: white;
+    border-radius: 8px;
+}
+.formWrapper .inputWrapper input:focus{
+    border: 1px solid rgb(108, 7, 102);
+}
+.inputWrapper input::placeholder{
+    color: gray;
+    font-size: 13px;
+}
+.formWrapper .inputWrapper .error{
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+}
+.inputHolder{
+    display: flex;
+    column-gap: 2%;
+}
+.inputHolder .inputWrapper{
+    width: 49%;
+}
+
+.rememberMe{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(163, 163, 163);
+}
+.rememberMe p{
+    font-size: 13px;
+}
+.terms{
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+.terms label{
+    font-size: 14px;
+}
+.buttonWrapper{
+    display: grid;
+    place-items: center;
+}
+.buttonWrapper button{
+    width: fit-content;
+    padding: 10px 30px;
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    border: 0px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.lastText{
+    font-size: 14px;
+    border-bottom: 1px solid rgb(89, 89, 89);
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.lastText a{
+    background-color: rgb(38, 39, 48);
+    border: 0px;
+    text-decoration: none;
+    color: dodgerblue;
+}

@@ -73,7 +73,7 @@ const BusinessRegisteration = () => {
 
                 </form>
                 <div className={Style.lastText}>
-                    <p>Already have an account? <NavLink>Sign In</NavLink></p>
+                    <p>Already have an account? <NavLink to = "/signin">Sign In</NavLink></p>
                 </div>
             </div>
         </div>
