@@ -4,7 +4,7 @@ const Navlinks = () => {
   return (
 		<div className="navlinks">
 			<div className="navtops">
-				<NavLink to={"/"}>Home</NavLink>
+				<NavLink className = "active" to={"/"}>Home</NavLink>
 				<NavLink to={"/wallet"}>Wallet</NavLink>
 				<NavLink to={"/wallet"}>Withdraw</NavLink>
 				<NavLink to={"/wallet"}>Swap</NavLink>
