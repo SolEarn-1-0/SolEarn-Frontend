@@ -5,6 +5,8 @@ import Aboutus from "./pages/AboutUs";
 import Contactus from "./pages/ContactUs";
 import Dashboard from "./pages/dashboard/dashboard";
 import GetStarted from "./pages/getStarted";
+import BusinessRegisteration from "./pages/businessRegisteration";
+import WorkerRegisteration from "./pages/workerRegisteration";
 
 function App() {
   return<>
@@ -16,6 +18,8 @@ function App() {
         <Route path = "/contactus" element = {<Contactus/>} />
         <Route path = "/dashboard" element = {<Dashboard/>} />
         <Route path = "/getstarted" element = {<GetStarted/>} />
+        <Route path = "/business/sign-up" element = {<BusinessRegisteration/>} />
+        <Route path = "/worker/sign-up" element = {<WorkerRegisteration/>} />
       </Routes>
     </Router>
 
