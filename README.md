@@ -15,9 +15,9 @@ SolEarn is a decentralized crypto payroll application built on Solana blockchain
 <h1>MVP:</h1> The Minimum Viable Product (MVP) of SolEarn includes the following features:
 
 
-    1. Employee account creation: Businesses, Freelancers, employees, and other personnels can create accounts for their employees.
+    1. Employee account creation: Businesses and Organiation can create accounts for their employees.
     2. Payment processing: Businesses can initiate payments to their employees' accounts.
-    3. Organization account creation: Organizations can create accounts for their employees.
+    3. Personal/freelance Account creation: Freelancers and employees can create accounts to generate invoice and receive payment.
        
     
 <h1>Interaction:</h1> SolEarn is user-friendly and easy to use. Businesses can interact with SolEarn through a web interface, which provides access to the dashboard and payroll features. Employees can interact with SolEarn through a web interface, which provides access to their account balance and transaction history.
