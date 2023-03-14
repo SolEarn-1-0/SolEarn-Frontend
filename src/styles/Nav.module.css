@@ -105,6 +105,19 @@ header {
   cursor: pointer;
   margin-top: 10px;
 }
+.headerlft > a {
+  width: 25%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, rgb(108, 7, 102), rgb(63, 3, 92));
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration: none;
+  padding: 13px 40px;
+}
 
 .headerrght {
   width: 40%;

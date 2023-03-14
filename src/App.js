@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Aboutus from "./pages/AboutUs";
 import Contactus from "./pages/ContactUs";
 import Dashboard from "./pages/dashboard/dashboard";
+import GetStarted from "./pages/getStarted";
 
 function App() {
   return<>
@@ -14,6 +15,7 @@ function App() {
         <Route path = "/about" element = {<Aboutus/>}/>
         <Route path = "/contactus" element = {<Contactus/>} />
         <Route path = "/dashboard" element = {<Dashboard/>} />
+        <Route path = "/getstarted" element = {<GetStarted/>} />
       </Routes>
     </Router>
 
