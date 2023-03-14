@@ -1,6 +1,6 @@
 import Style from "../styles/business.module.css";
 import Navlogo from "../components/navlogo";
-// import {BsFillCaretDownFill} from "react-icons/bs";
+import { NavLink } from "react-router-dom"
 
 
 
@@ -67,13 +67,13 @@ const BusinessRegisteration = () => {
                         <label htmlFor="">By signing up i agre to the Terms of use, Security and Disclosure and policies</label>
                     </div>
                     <div className={Style.buttonWrapper}>
-                        <button>Sign Up</button>
+                        <NavLink to="/">Sign Up</NavLink>
                     </div>
 
 
                 </form>
                 <div className={Style.lastText}>
-                    <p>Already have an account? Log in</p>
+                    <p>Already have an account? <NavLink>Sign In</NavLink></p>
                 </div>
             </div>
         </div>

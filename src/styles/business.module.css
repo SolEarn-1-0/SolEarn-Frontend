@@ -83,17 +83,25 @@
     display: grid;
     place-items: center;
 }
-.buttonWrapper button{
+.buttonWrapper a{
     width: fit-content;
     padding: 10px 30px;
     color: white;
     background-color: purple;
     border-radius: 10px;
     border: 0px;
+    text-decoration: none;
+    font-size: 14px;
 
 }
 
 .lastText{
     font-size: 14px;
     color: whitesmoke;
+}
+.lastText a{
+    background-color: rgb(38, 39, 48);
+    border: 0px;
+    text-decoration: none;
+    color: dodgerblue;
 }
