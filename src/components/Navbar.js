@@ -13,8 +13,8 @@ const Navbar = () => {
 			</div>
 
 			<div className={Style.navbtns}>
-				<NavLink  to={"/contactus"}><button>SignIn</button></NavLink>
-				<NavLink  to={"/contactus"}><button>SignUp</button></NavLink>
+				<NavLink  to={"/contactus"}><button className="signin">SignIn</button></NavLink>
+				<NavLink  to={"/contactus"}><button className="signup">SignUp</button></NavLink>
 			</div>
 		</nav>
 	);
