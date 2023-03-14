@@ -1,5 +1,6 @@
 import Images from '../Images/E-Wallet.svg'
 import Style from "../styles/Nav.module.css"
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
 					DAOs, Employees and freelancers can choose to be paid in their
 					preferred mix of solana, cryptocurrency, and local currencies.
 				</p>
-				<button>Get Started</button>
+				<NavLink to ="/getstarted">Get Started</NavLink>
 			</div>
 
 			<div className={Style.headerrght}>
