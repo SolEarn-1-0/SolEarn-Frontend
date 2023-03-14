@@ -1,9 +1,8 @@
 /** @format */
 
-import Navlogo from "../../components/navlogo";
-import Navlinks from "../../components/dashboardcomp/navlink";
 import Card from "../../components/dashboardcomp/card";
 import data from "../../components/dashboardcomp/carddata";
+import Navmenu from "../../components/dashboardcomp/Navmenu";
 import './dashboard.css'
 // import HomeIcon from "@mui/icons-material/Home";
 const Dashboard = () => {
@@ -14,10 +13,7 @@ const Dashboard = () => {
 
 	return (
 		<div className="dashboard">
-			<div className="dashboardlft">
-				<Navlogo />
-				<Navlinks />
-			</div>
+			<Navmenu/>
 			<div className="dashboardrght">
 				<div className="button">
 					<button>Connect Wallet</button>
