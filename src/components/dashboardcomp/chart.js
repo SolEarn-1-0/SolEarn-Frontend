@@ -1,9 +1,7 @@
 /** @format */
 
-import React, { PureComponent } from "react";
 import {
 	LineChart,
-	Area,
 	XAxis,
 	YAxis,
 	CartesianGrid,
