@@ -61,7 +61,7 @@ body {
 	color: rgb(151, 152, 161);
 }
 
-.active {
+.dashactive {
 	border-left: 5px solid rgb(151, 11, 144);
 	background-color: rgb(56, 57, 68);
 }
