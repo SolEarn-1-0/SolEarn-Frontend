@@ -68,7 +68,7 @@ const WorkerRegisteration = () => {
                         <label htmlFor="">By signing up i agre to the Terms of use, Security and Disclosure and policies</label>
                     </div>
                     <div className={Style.buttonWrapper}>
-                        <NavLink to="/">Sign Up</NavLink>
+                        <button type="submit">Sign Up</button>
                     </div>
 
 
