@@ -9,7 +9,7 @@
 SolEarn is a decentralized crypto payroll application built on Solana blockchain that allows businesses to pay their employees in cryptocurrencies. SolEarn provides a fast and secure way to conduct transactions with low fees. This documentation provides a comprehensive overview of the solution, its MVP, interaction, architecture, and future improvements.
 
 
-<h1><Solution: </h1> SolEarn simplifies the process of paying employees in cryptocurrencies. With SolEarn, businesses can create employee accounts and conduct transactions without intermediaries such as banks or payment processors. SolEarn's smart contract technology manages employee accounts and processes payments securely and transparently.
+<h1>Solution: </h1> SolEarn simplifies the process of paying employees in cryptocurrencies. With SolEarn, businesses can create employee accounts and conduct transactions without intermediaries such as banks or payment processors. SolEarn's smart contract technology manages employee accounts and processes payments securely and transparently.
 
 
 <h1>MVP:</h1> The Minimum Viable Product (MVP) of SolEarn includes the following features:
