@@ -3,13 +3,16 @@
 #Sol-Earn
 
 
-Overview: SolEarn is a decentralized crypto payroll application built on Solana blockchain that allows businesses to pay their employees in cryptocurrencies. SolEarn provides a fast and secure way to conduct transactions with low fees. This documentation provides a comprehensive overview of the solution, its MVP, interaction, architecture, and future improvements.
+<h1>Overview:</h1>
 
 
-Solution: SolEarn simplifies the process of paying employees in cryptocurrencies. With SolEarn, businesses can create employee accounts and conduct transactions without intermediaries such as banks or payment processors. SolEarn's smart contract technology manages employee accounts and processes payments securely and transparently.
+SolEarn is a decentralized crypto payroll application built on Solana blockchain that allows businesses to pay their employees in cryptocurrencies. SolEarn provides a fast and secure way to conduct transactions with low fees. This documentation provides a comprehensive overview of the solution, its MVP, interaction, architecture, and future improvements.
 
 
-MVP: The Minimum Viable Product (MVP) of SolEarn includes the following features:
+<h1<Solution:</h1> SolEarn simplifies the process of paying employees in cryptocurrencies. With SolEarn, businesses can create employee accounts and conduct transactions without intermediaries such as banks or payment processors. SolEarn's smart contract technology manages employee accounts and processes payments securely and transparently.
+
+
+<h1>MVP:</h1> The Minimum Viable Product (MVP) of SolEarn includes the following features:
 
 
     1. Employee account creation: Businesses can create accounts for their employees.
@@ -17,9 +20,9 @@ MVP: The Minimum Viable Product (MVP) of SolEarn includes the following features
     3. Organization account creation: Organizations can create accounts for their employees.
        
     
-Interaction: SolEarn is user-friendly and easy to use. Businesses can interact with SolEarn through a web interface, which provides access to the dashboard and payroll features. Employees can interact with SolEarn through a web interface, which provides access to their account balance and transaction history.
+<h1>Interaction:</h1> SolEarn is user-friendly and easy to use. Businesses can interact with SolEarn through a web interface, which provides access to the dashboard and payroll features. Employees can interact with SolEarn through a web interface, which provides access to their account balance and transaction history.
 Architecture: SolEarn is a decentralized application built using Solana's Rust programming language, React and many other libraries and frameworks. SolEarn uses Solana's smart contract technology to manage employee accounts and process payments. SolEarn also uses Solana's token technology to manage cryptocurrencies and facilitate transactions. SolEarn's architecture ensures fast and secure transactions with low fees.
-Future Improvements: SolEarn's future improvements include:
+<h1>Future Improvements:</h1> SolEarn's future improvements include:
 
 
     1. Automated tax withholding: SolEarn will be enhanced to automatically withhold taxes from employee payments and remit them to the relevant tax authorities.
