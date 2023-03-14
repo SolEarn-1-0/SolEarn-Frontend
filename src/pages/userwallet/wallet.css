@@ -1,0 +1,16 @@
+/** @format */
+
+.walletitems {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.walletrigt {
+  width: 80%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 0% 4%;
+}

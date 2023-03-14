@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom"
-// import HomeIcon from "@mui/icons-material/Home";
 const Navlinks = () => {
   return (
 		<div className="navlinks">
 			<div className="navtops">
 				<NavLink className = "dashactive" to={"/"}>Home</NavLink>
-				<NavLink to={"/wallet"}>Wallet</NavLink>
+				<NavLink to={"/Wallet"}>Wallet</NavLink>
 				<NavLink to={"/wallet"}>Withdraw</NavLink>
 				<NavLink to={"/wallet"}>Swap</NavLink>
 			</div>
