@@ -16,11 +16,17 @@ const Dashboard = () => {
 		<div className="dashboard">
 			<div className="dashboardlft">
 				<Navlogo />
-        <Navlinks/>
+				<Navlinks />
 			</div>
-      <div className="dashboardrght">
-       {cardItems}
-      </div>
+			<div className="dashboardrght">
+				<div className="button">
+					<button>Connect Wallet</button>
+				</div>
+				<div className="carditems">
+
+				{cardItems}
+				</div>
+			</div>
 		</div>
 	);
 };
