@@ -1,6 +1,6 @@
 <!-- @format -->
 
-#Sol-Earn
+<h1>#Sol-Earn</h1>
 
 
 <h1>Overview:</h1>
@@ -30,4 +30,4 @@ Architecture: SolEarn is a decentralized application built using Solana's Rust p
     3. Advanced analytics: SolEarn will be enhanced to provide advanced analytics and reporting capabilities, such as payroll summaries and expense tracking.
     4. Integration with financial services providers: SolEarn will be enhanced to integrate with financial services providers to provide more robust payroll and financial management features.
 
-![FqipDbQWcAIvjqH](https://user-images.githubusercontent.com/66975592/224820041-7f1559f5-5f03-4d63-a6e6-cd55310099a0.jpeg)
+/home/johniexx/Pictures/IMG-20230314-WA0020.jpg
