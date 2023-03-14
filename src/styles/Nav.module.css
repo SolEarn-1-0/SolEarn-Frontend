@@ -69,7 +69,7 @@ nav {
 
 header {
   width: 100%;
-  height: 600px;
+  height: 550px;
   display: flex;
   align-items: center;
    padding: 0px 4%;
@@ -85,6 +85,7 @@ header {
   line-height: 4rem;
   width: 90%;
   font-weight: 400;
+  color: rgb(209, 209, 211);
 }
 
 .headerlft > p {
@@ -102,6 +103,7 @@ header {
   background: linear-gradient(to right, rgb(108, 7, 102), rgb(63, 3, 92));
   color: inherit;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .headerrght {
