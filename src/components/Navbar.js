@@ -14,14 +14,10 @@ const Navbar = () => {
 				<NavLink to={"/contactus"}>ContactUs</NavLink>
 			</div>
 
-			{/* <div className={Style.navbtns}>
-				<NavLink to={"/contactus"}>
-					<button>SignIn</button>
-				</NavLink>
-				<NavLink to={"/contactus"}>
-					<button>SignUp</button>
-				</NavLink>
-			</div> */}
+			<div className={Style.navbtns}>
+				<NavLink  to={"/contactus"}><button>SignIn</button></NavLink>
+				<NavLink  to={"/getstarted"}><button>SignUp</button></NavLink>
+			</div>
 		</nav>
 	);
 };
