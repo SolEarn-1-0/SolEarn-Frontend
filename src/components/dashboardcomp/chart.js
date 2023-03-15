@@ -1,13 +1,14 @@
 /** @format */
 
+// import React, { PureComponent } from "react";
 import {
-	LineChart,
+	AreaChart,
+	Area,
 	XAxis,
 	YAxis,
 	CartesianGrid,
 	Tooltip,
 	ResponsiveContainer,
-  Line,
 } from "recharts";
 
 const data = [
@@ -41,48 +42,83 @@ const data = [
 	},
 ];
 
-export default function Chart(){
-
-
-	
-		return (
-			<div style={{ width: "100%", height: 300 }}>
-				<ResponsiveContainer>
-					<LineChart
-						data={data}
-						margin={{
-							top: 10,
-							right: 30,
-							left: 0,
-							bottom: 0,
-						}}>
-						<CartesianGrid horizontal="" vertical="" />
-						<XAxis dataKey="name" tick={{ fill: "rgb(209, 209, 211)" }} />
-						<YAxis tick={{ fill: "rgb(209, 209, 211)" }} />
-						<Tooltip />
-						<Line
-							type="monotone"
-							dataKey="price"
-							stroke="#8884d8"
-							dot={{
-								fill: "rgb(209, 209, 211)",
-								stroke: "",
-								strokeWidth: 2,
-								r: 5,
-							}}
-							activeDot={{ r: 8 }}
-						/>
-						{/* <Area
-							type="monotone"
-							dataKey="uv"
-							stroke="#8884d8"
-							fill="#8884d8"
-						/> */}
-					</LineChart>
-				</ResponsiveContainer>
-			</div>
-		);
-
+export default function Chart() {
+	return (
+		<div style={{ width: "100%", height: 300 }} className="rechart">
+			<ResponsiveContainer>
+				<AreaChart
+					width={500}
+					height={400}
+					data={data}
+					margin={{
+						top: 10,
+						right: 30,
+						left: 0,
+						bottom: 0,
+					}}>
+					<CartesianGrid horizontal="" vertical="" />
+					<XAxis dataKey="name" tick={{ fill: "rgb(209, 209, 211)" }} />
+					<YAxis tick={{ fill: "rgb(209, 209, 211)" }} />
+					<Tooltip />
+					<Area
+						type="monotone"
+						dataKey="price"
+						stroke="#8884d8"
+						fill="rgb(25, 223, 139)"
+						dot={{
+							fill: "rgb(209, 209, 211)",
+							stroke: "",
+							strokeWidth: 2,
+							r: 5,
+						}}
+						activeDot={{ r: 8 }}
+					/>
+				</AreaChart>
+			</ResponsiveContainer>
+		</div>
+	);
 }
 
-// strokeDasharray="3 3"
+// export default function Chart(){
+
+// // 		return (
+// // 			<div style={{ width: "100%", height:300 }} className= "rechart" >
+// // 				<ResponsiveContainer>
+// // 					<LineChart
+// // 						data={data}
+// // 						margin={{
+// // 							top: 10,
+// // 							right: 30,
+// // 							left: 0,
+// // 							bottom: 0,
+// // 						}}>
+// // 						<CartesianGrid horizontal="" vertical="" />
+// // 						<XAxis dataKey="name" tick={{ fill: "rgb(209, 209, 211)" }} />
+// // 						<YAxis tick={{ fill: "rgb(209, 209, 211)" }} />
+// // 						<Tooltip />
+// // 						<Line
+// // 							type="monotone"
+// // 							dataKey="price"
+// // 							stroke="#8884d8"
+// // 							dot={{
+// // 								fill: "rgb(209, 209, 211)",
+// // 								stroke: "",
+// // 								strokeWidth: 2,
+// // 								r: 5,
+// // 							}}
+// // 							activeDot={{ r: 8 }}
+// // 						/>
+// // 						{/* <Area
+// // 							type="monotone"
+// // 							dataKey="uv"
+// // 							stroke="#8884d8"
+// // 							fill="#8884d8"
+// // 						/> */}
+// // 					</LineChart>
+// // 				</ResponsiveContainer>
+// // 			</div>
+// // 		);
+
+// // }
+
+// // // strokeDasharray="3 3"

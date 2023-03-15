@@ -43,10 +43,14 @@ nav {
   gap: 1em;
 }
 
-.navbtns button {
+.navbtns a {
   height: inherit;
   width: 100%;
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 5px;
   font-size: 14px;
@@ -54,13 +58,12 @@ nav {
      color: rgb(245, 245, 245);
 }
 
-.navbtns button:nth-child(1) {
-  background-color: rgb(20, 20, 20);
+.navbtns a:nth-child(1) {
+  background-color: rgb(27, 27, 29);
 }
 
-.navbtns button:nth-child(2) {
+.navbtns a:nth-child(2) {
   background: linear-gradient(to right, rgb(108, 7, 102), rgb(63, 3, 92));
-
 }
 
 header {
