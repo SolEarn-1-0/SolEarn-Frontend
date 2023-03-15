@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { PureComponent } from "react";
+// import React, { PureComponent } from "react";
 import {
 	AreaChart,
 	Area,
