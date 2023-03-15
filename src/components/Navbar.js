@@ -15,8 +15,8 @@ const Navbar = () => {
 			</div>
 
 			<div className={Style.navbtns}>
-				<NavLink  to={"/contactus"}><button>SignIn</button></NavLink>
-				<NavLink  to={"/getstarted"}><button>SignUp</button></NavLink>
+				<NavLink  to={"/contactus"}>SignIn</NavLink>
+				<NavLink  to={"/getstarted"}>SignUp</NavLink>
 			</div>
 		</nav>
 	);

@@ -14,3 +14,44 @@
 	gap: 20px;
 	padding: 0% 4%;
 }
+
+.chartcrd {
+	background-color: rgb(40, 41, 49);
+	width: 70%;
+	height: 500px;
+	padding: 25px 20px;
+	border-radius: 20px;
+}
+
+.chartcrd h1 {
+	color: rgb(209, 209, 211);
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.chartcrd p {
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	gap: 5px;
+}
+
+.chartcrd p span {
+	font-size: 35px;
+	color: rgb(25, 223, 139);
+	font-weight: 500;
+}
+
+.chartcrd p img {
+	width: 25px;
+	height: 25px;
+}
+
+
+.rechart {
+	margin-top: 10px;
+}
+
+.fhgti{
+	color: rgba(25, 223, 141, 0.596);
+}
