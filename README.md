@@ -31,5 +31,6 @@ Architecture: SolEarn is a decentralized application built using Solana's Rust p
     4. Integration with financial services providers: SolEarn will be enhanced to integrate with financial services providers to provide more robust payroll and financial management features.
     
     
-![IMG-20230314-WA0020](https://user-images.githubusercontent.com/66975592/224917188-6f2b6e96-b945-4cb4-bb9b-d4eb98e94923.jpg)
+![Screenshot from 2023-03-14 21-10-07](https://user-images.githubusercontent.com/93476943/225624506-c0949b03-8851-44b5-981f-ad0e40f9a46b.png)
+
 
