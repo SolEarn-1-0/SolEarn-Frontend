@@ -1,0 +1,111 @@
+.adminitems {
+  display: flex;
+  gap: 20px;
+}
+
+.adminrght {
+  width: 80%;
+}
+
+.admincrds {
+  padding-top: 40px;
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+
+
+.balancecrditems {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(40, 41, 49);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.balancecrditems h1 {
+  font-size: 25px;
+  padding: 8px 0px;
+    color: rgb(173, 173, 177);
+    font-weight: 400;
+  /* padding: 20px 0px; */
+}
+
+.balancecrditems P {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+}
+
+.price h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+.price button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+    background-color: rgb(40, 41, 49);
+  color: whitesmoke;
+  border:2px solid rgb(53, 55, 65);
+  padding: 15px 15px;
+  border-radius: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: rgb(173, 173, 177);
+}
+
+/* .adchart {
+  margin-top: 10px;
+  width: 100%;
+} */
+
+/* organisation */
+.organisationitem img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.organisationitem {
+   width: 100%;
+  height: max-content;
+  background-color: rgb(40, 41, 49);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.organisationitem h1 {
+  font-weight: 500;
+  color: rgb(187, 187, 192);
+}
+
+.orgtxt {
+  display: grid;
+  column-gap: 5rem;
+  row-gap: 1em;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 20px;
+}
+
+.orgtxt p {
+  font-size: 14px;
+}
+
+.orgtxt h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(200, 200, 204);
+}

@@ -3,10 +3,10 @@ const Navlinks = () => {
   return (
 		<div className="navlinks">
 			<div className="navtops">
-				<NavLink className = "dashactive" to={"/"}>Home</NavLink>
+				<NavLink className = "dashactive" to={"/dashboard"}>Home</NavLink>
 				<NavLink to={"/Wallet"}>Wallet</NavLink>
-				<NavLink to={"/wallet"}>Withdraw</NavLink>
-				<NavLink to={"/wallet"}>Swap</NavLink>
+				<NavLink to={"/withdrawt"}>Withdraw</NavLink>
+				<NavLink to={"/swap"}>Swap</NavLink>
 			</div>
 			<div className="navbottom">
 				<NavLink to={"/profile"}>Settings</NavLink>
