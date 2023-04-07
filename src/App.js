@@ -8,7 +8,7 @@ import Wallet from "./pages/userwallet/Wallet";
 import GetStarted from "./pages/getStarted";
 import BusinessRegisteration from "./pages/businessRegisteration";
 import WorkerRegisteration from "./pages/workerRegisteration";
-
+import Admin from "./pages/admin/Admin";
 function App() {
   return<>
   
@@ -22,6 +22,7 @@ function App() {
         <Route path = "/getstarted" element = {<GetStarted/>} />
         <Route path = "/business/sign-up" element = {<BusinessRegisteration/>} />
         <Route path = "/worker/sign-up" element = {<WorkerRegisteration/>} />
+        <Route path = "/admin" element = {<Admin/>} />
       </Routes>
     </Router>
 
