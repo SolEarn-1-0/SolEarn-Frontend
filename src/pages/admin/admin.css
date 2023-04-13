@@ -3,19 +3,21 @@
   gap: 20px;
 }
 
+.admincrdlft {
+  width: 100%;
+}
+
 .adminrght {
-  width: 80%;
+  width: 100%;
 }
 
 .admincrds {
   padding-top: 40px;
   display: flex;
-  gap: 50px;
+  gap: 20px;
   width: 100%;
   /* background-color: aqua; */
 }
-
-
 
 .balancecrditems {
   width: 100%;
@@ -66,10 +68,6 @@
   color: rgb(173, 173, 177);
 }
 
-/* .adchart {
-  margin-top: 10px;
-  width: 100%;
-} */
 
 /* organisation */
 .organisationitem img {
@@ -107,5 +105,54 @@
 .orgtxt h3 {
   font-size: 18px;
   font-weight: 600;
+  color: rgb(200, 200, 204);
+}
+
+.admincrdrght {
+  width: 100%;
+}
+
+.paymentrequest{
+  background-color: rgb(40, 41, 49);
+  padding: 0.5rem 1rem;
+  width: 80%;
+  height: max-content;
+}
+
+.paymentrequest h1 {
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(187, 187, 192);
+}
+
+.paymentrequest p {
+  font-size: 15px;
+  color: rgb(200, 200, 204);
+  padding: 10px 0px;
+}
+
+.images {
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.images img   {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0px -5px;
+  object-fit: cover;
+  border: 2px solid rgb(216, 216, 216);
+}
+
+.requesttxt {
+  display: flex;
+  gap: .5em;
+  width: 100%;
+}
+
+.requesttxt p {
+  font-size: 13px;
   color: rgb(200, 200, 204);
 }
