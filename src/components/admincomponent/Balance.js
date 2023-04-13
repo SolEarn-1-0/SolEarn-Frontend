@@ -1,8 +1,9 @@
 /** @format */
 
 import { AiOutlinePlus } from "react-icons/ai";
-import sol from '../../Images/sol.png'
+import sol from "../../Images/sol.png";
 import AdminChart from "./adminchart";
+import { Progress } from "@mantine/core";
 const BalanceCard = (props) => {
 	return (
 		<>
@@ -34,8 +35,39 @@ const BalanceCard = (props) => {
 					</div>
 				</div>
 				<div className="admincrdrght">
-					<h1>Active payment request</h1>
-					<p>You requested $40.00 For Monthly dues</p>
+					<div className="paymentrequest">
+						<h1>Active payment request</h1>
+						<p>You requested $40.00 For Monthly dues</p>
+						<div className="requesttxt">
+							<div className="images">
+								<img
+									src="https://imgs.search.brave.com/hbth4FeM2AaX-OPljdeO99ldCoFb5GL5JkQA2o-AaI4/rs:fit:250:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/LWRYUk41aXRtTTJl/RTd6TVFqb3dRQUFB/QSZwaWQ9QXBp"
+									alt=""
+								/>
+								<img
+									src="https://imgs.search.brave.com/8C_x2h03WG_9Quh7a7g7soe8JNbqR0j5Am041KIiASU/rs:fit:470:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC41/UUxaUXBybHdkb3Y3/VzZDQm5IaTZ3SGFI/ZSZwaWQ9QXBp"
+									alt=""
+								/>
+								<img
+									src="https://imgs.search.brave.com/Ve9cTZSU5jBj9qBd1CYP9_KhFHXmADqhJxdOKJok5PU/rs:fit:166:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/emVJbmIwWUY0ckNW/bXRmbUtxYXpnQUFB/QSZwaWQ9QXBp"
+									alt=""
+								/>
+							</div>
+							<div className="desc">
+								<p>283 Participant . Optional . Feb 19, 2023</p>
+							</div>
+						</div>
+						<div className="prgressbar">
+							<Progress color="rgb(75, 16, 71)" value={50} />
+							<p></p>
+							<p></p>
+						</div>
+					</div>
+
+					<div className="memberswallet">
+						<h1>Members Card</h1>
+
+					</div>
 				</div>
 			</div>
 		</>
