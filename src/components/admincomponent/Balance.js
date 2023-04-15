@@ -54,7 +54,7 @@ const BalanceCard = (props) => {
 								/>
 							</div>
 							<div className="desc">
-								<p>283 Participant . Optional . Feb 19, 2023</p>
+								<p>283 Employee . Optional . Feb 19, 2023</p>
 							</div>
 						</div>
 						<div className="prgressbar">
@@ -65,8 +65,20 @@ const BalanceCard = (props) => {
 					</div>
 
 					<div className="memberswallet">
-						<h1>Members Card</h1>
-
+						<h1>Employee Wallets</h1>
+							<div className="memberstitle">
+								<div className="totalalocated">
+									<h4>Total Allocated</h4>
+									<p className="totalprice">$75,000.67</p>
+								</div>
+								<div className="totalalocated">
+									<h4>Total Employee</h4>
+									<p className="totalprice">$75,000.67</p>
+								</div>
+								<div className="funds">
+									<button>Add Funds</button>
+								</div>
+							</div>
 					</div>
 				</div>
 			</div>
