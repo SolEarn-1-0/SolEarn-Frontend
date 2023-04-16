@@ -1,181 +1,213 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+
 .adminitems {
-  display: flex;
-  gap: 20px;
+	display: flex;
+	gap: 20px;
 }
 
 .admincrdlft {
-  width: 100%;
+	width: 100%;
 }
 
 .adminrght {
-  width: 100%;
+	width: 100%;
 }
 
 .admincrds {
-  padding-top: 40px;
-  display: flex;
-  gap: 20px;
-  width: 100%;
-  /* background-color: aqua; */
+	padding-top: 40px;
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	/* background-color: aqua; */
 }
 
 .balancecrditems {
-  width: 100%;
-  height: max-content;
-  background-color: rgb(40, 41, 49);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+	width: 100%;
+	height: max-content;
+	background-color: rgb(40, 41, 49);
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
 }
 
 .balancecrditems h1 {
-  font-size: 25px;
-  padding: 8px 0px;
-    color: rgb(173, 173, 177);
-    font-weight: 400;
-  /* padding: 20px 0px; */
+	font-size: 25px;
+	padding: 8px 0px;
+	color: rgb(173, 173, 177);
+	font-weight: 400;
+	/* padding: 20px 0px; */
 }
 
 .balancecrditems P {
-  font-size: 13px;
-  font-weight: 500;
+	font-size: 13px;
+	font-weight: 500;
 }
 
 .price {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
+	width: 100%;
 }
 
 .price h1 {
-  font-size: 2rem;
-  font-weight: 600;
+	font-size: 2rem;
+	font-weight: 600;
 }
-
 
 .price button {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-    background-color: rgb(40, 41, 49);
-  color: whitesmoke;
-  border:2px solid rgb(53, 55, 65);
-  padding: 15px 15px;
-  border-radius: 20px;
-  height: 20px;
-  cursor: pointer;
-  color: rgb(173, 173, 177);
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	background-color: rgb(40, 41, 49);
+	color: whitesmoke;
+	border: 1px solid rgb(20, 116, 68);
+	padding: 15px 15px;
+	border-radius: 20px;
+	height: 20px;
+	cursor: pointer;
+	color: rgb(173, 173, 177);
 }
-
 
 /* organisation */
 .organisationitem img {
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
 }
 
 .organisationitem {
-   width: 100%;
-  height: max-content;
-  background-color: rgb(40, 41, 49);
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  margin-top: 20px;
+	width: 100%;
+	height: max-content;
+	background-color: rgb(40, 41, 49);
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	margin-top: 20px;
 }
 
 .organisationitem h1 {
-  font-weight: 500;
-  color: rgb(187, 187, 192);
+	font-weight: 500;
+	color: rgb(187, 187, 192);
 }
 
 .orgtxt {
-  display: grid;
-  column-gap: 5rem;
-  row-gap: 1em;
-  grid-template-columns: repeat(2, 1fr);
-  padding-top: 20px;
+	display: grid;
+	column-gap: 5rem;
+	row-gap: 1em;
+	grid-template-columns: repeat(2, 1fr);
+	padding-top: 20px;
 }
 
 .orgtxt p {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .orgtxt h3 {
-  font-size: 18px;
-  font-weight: 600;
-  color: rgb(200, 200, 204);
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(200, 200, 204);
 }
 
 .admincrdrght {
-  width: 100%;
+	width: 100%;
 }
 
-.paymentrequest{
-  background-color: rgb(40, 41, 49);
-  padding: 0.5rem 1rem;
-  width: 90%;
-  height: max-content;
-  border-radius: 20px;
+.paymentrequest {
+	background-color: rgb(40, 41, 49);
+	padding: 0.5rem 1rem;
+	width: 90%;
+	height: max-content;
+	border-radius: 20px;
 }
 
 .paymentrequest h1 {
-  font-weight: 500;
-  font-size: 25px;
-  color: rgb(187, 187, 192);
+	font-weight: 500;
+	font-size: 25px;
+	color: rgb(187, 187, 192);
 }
 
 .paymentrequest p {
-  font-size: 15px;
-  color: rgb(200, 200, 204);
-  padding: 10px 0px;
+	font-size: 15px;
+	color: rgb(200, 200, 204);
+	padding: 10px 0px;
 }
 
 .images {
-  width: max-content;
-  display: flex;
-  align-items: center;
+	width: max-content;
+	display: flex;
+	align-items: center;
 }
 
-.images img   {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  margin: 0px -5px;
-  object-fit: cover;
-  border: 2px solid rgb(216, 216, 216);
+.images img {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: 0px -5px;
+	object-fit: cover;
+	border: 2px solid rgb(216, 216, 216);
 }
 
 .requesttxt {
-  display: flex;
-  gap: .5em;
-  width: 100%;
+	display: flex;
+	gap: 0.5em;
+	width: 100%;
 }
 
 .requesttxt p {
-  font-size: 13px;
-  color: rgb(200, 200, 204);
+	font-size: 13px;
+	color: rgb(200, 200, 204);
 }
 
 .memberswallet {
-  background-color: rgb(40, 41, 49);
-  margin-top: 20px;
-  padding: 20px 15px;
-  border-radius: 20px;
-  width: 90%;
+	background-color: rgb(40, 41, 49);
+	margin-top: 20px;
+	padding: 20px 15px;
+	border-radius: 20px;
+	width: 90%;
 }
 
 .memberswallet h1 {
-  font-weight: 500;
-  font-size: 20px;
-  color: rgb(187, 187, 192);
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(187, 187, 192);
 }
 
 .memberstitle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0px;
-  
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+.totalalocated h4 {
+	font-weight: 500;
+	color: rgb(217, 217, 218);
+}
+
+.totalalocated p {
+	font-size: 20px;
+	color: rgb(240, 235, 235);
+	font-family: "Lato", sans-serif;
+	padding: 10px 0px;
+}
+
+.funds {
+	width: 20%;
+	/* background-color: aqua; */
+	height: 30px;
+}
+
+.funds button {
+	width: 100%;
+	height: inherit;
+	border: 1px solid rgb(20, 116, 68);
+	background-color: transparent;
+	color: rgb(230, 228, 228);
+	cursor: pointer;
+	border-radius: 20px;
+	font-family: "poppins", sans-serif;
+	font-size: 12px;
+	font-weight: 200;
 }

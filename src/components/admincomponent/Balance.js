@@ -3,6 +3,7 @@
 import { AiOutlinePlus } from "react-icons/ai";
 import sol from "../../Images/sol.png";
 import AdminChart from "./adminchart";
+import { UserButton } from "./employeeinfo";
 import { Progress } from "@mantine/core";
 const BalanceCard = (props) => {
 	return (
@@ -58,7 +59,7 @@ const BalanceCard = (props) => {
 							</div>
 						</div>
 						<div className="prgressbar">
-							<Progress color="rgb(75, 16, 71)" value={50} />
+							<Progress color="rgb(20, 116, 68)" value={50} />
 							<p></p>
 							<p></p>
 						</div>
@@ -66,19 +67,20 @@ const BalanceCard = (props) => {
 
 					<div className="memberswallet">
 						<h1>Employee Wallets</h1>
-							<div className="memberstitle">
-								<div className="totalalocated">
-									<h4>Total Allocated</h4>
-									<p className="totalprice">$75,000.67</p>
-								</div>
-								<div className="totalalocated">
-									<h4>Total Employee</h4>
-									<p className="totalprice">$75,000.67</p>
-								</div>
-								<div className="funds">
-									<button>Add Funds</button>
-								</div>
+						<div className="memberstitle">
+							<div className="totalalocated">
+								<h4>Total Allocated</h4>
+								<p className="totalprice">$75,000.67</p>
 							</div>
+							<div className="totalalocated">
+								<h4>Total Employee</h4>
+								<p className="totalprice">200</p>
+							</div>
+							<div className="funds">
+								<button>Add Funds</button>
+							</div>
+						</div>
+						<UserButton/>
 					</div>
 				</div>
 			</div>

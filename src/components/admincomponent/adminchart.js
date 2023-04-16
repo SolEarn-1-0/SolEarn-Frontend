@@ -57,14 +57,13 @@ export default function AdminChart() {
 					<Line
 						type="monotone"
 						dataKey="price"
-						stroke="#8884d8"
-            
+						stroke="rgb(20, 116, 68)"
 						fill="rgb(25, 223, 139)"
 						dot={{
 							fill: "rgb(209, 209, 211)",
 							stroke: "",
-							strokeWidth: 2,
-							r: 5,
+							strokeWidth: 1,
+							// r: 5,
 						}}
 						activeDot={{ r: 8 }}
 					/>
@@ -78,7 +77,6 @@ export default function AdminChart() {
 						tick={{ fill: "rgb(209, 209, 211)" }}
 						style={{ fontSize: "13px" }}
 					/>
-			
 				</LineChart>
 			</ResponsiveContainer>
 		</div>
