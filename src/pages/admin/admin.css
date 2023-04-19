@@ -195,7 +195,6 @@
 
 .funds {
 	width: 20%;
-	/* background-color: aqua; */
 	height: 30px;
 }
 
@@ -210,4 +209,23 @@
 	font-family: "poppins", sans-serif;
 	font-size: 12px;
 	font-weight: 200;
+}
+
+.userbtncrd {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+.userbtncrd h1 {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.userbtncrd p{
+	color: rgb(3, 167, 85);
+	font-weight: 600;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
 }

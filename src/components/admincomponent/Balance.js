@@ -5,7 +5,12 @@ import sol from "../../Images/sol.png";
 import AdminChart from "./adminchart";
 import { UserButton } from "./employeeinfo";
 import { Progress } from "@mantine/core";
+import employeeData from "./employeedata";
 const BalanceCard = (props) => {
+
+	const cardInput = employeeData.map((item) => {
+		return <UserButton key = {item.id} {...item} />;
+	})
 	return (
 		<>
 			<div className="admincrds">
@@ -80,7 +85,7 @@ const BalanceCard = (props) => {
 								<button>Add Funds</button>
 							</div>
 						</div>
-						<UserButton/>
+						{cardInput}
 					</div>
 				</div>
 			</div>

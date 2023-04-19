@@ -58,14 +58,14 @@ export default function AdminChart() {
 						type="monotone"
 						dataKey="price"
 						stroke="rgb(20, 116, 68)"
-						fill="rgb(25, 223, 139)"
-						dot={{
-							fill: "rgb(209, 209, 211)",
-							stroke: "",
-							strokeWidth: 1,
-							// r: 5,
-						}}
-						activeDot={{ r: 8 }}
+						// fill="rgb(25, 223, 139)"
+						// dot={{
+						// 	fill: "rgb(209, 209, 211)",
+						// 	stroke: "",
+						// 	strokeWidth: 1,
+						// 	// r: 5,
+						// }}
+						// activeDot={{ r: 8 }}
 					/>
 					<CartesianGrid horizontal="" vertical="" />
 					<XAxis
