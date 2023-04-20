@@ -37,6 +37,16 @@ body {
 	width: 100%;
 }
 
+.navlinks a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.navlinks i {
+	font-size: 25px;
+}
+
 .navbottom {
 	display: flex;
 	align-items: center;
