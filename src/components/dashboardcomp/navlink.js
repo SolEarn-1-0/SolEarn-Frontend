@@ -5,7 +5,7 @@ const Navlinks = () => {
 			<div className="navtops">
 				<NavLink className = "dashactive" to={"/dashboard"}>Home</NavLink>
 				<NavLink to={"/Wallet"}>Wallet</NavLink>
-				<NavLink to={"/withdrawt"}>Withdraw</NavLink>
+				<NavLink to={"/withdraw"}>Withdraw</NavLink>
 				<NavLink to={"/swap"}>Swap</NavLink>
 			</div>
 			<div className="navbottom">

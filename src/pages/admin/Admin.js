@@ -1,16 +1,18 @@
-import Navmenu from "../../components/dashboardcomp/Navmenu"
+/** @format */
+
 import BalanceCard from "../../components/admincomponent/Balance";
-import "./admin.css"
+import Adminnavmenu from "../../components/admincomponent/adminnavmenu";
+import "./admin.css";
 const Admin = () => {
-  return (
+	return (
 		<>
 			<div className="adminitems">
-				<Navmenu />
+				<Adminnavmenu />
 				<div className="adminrght">
-            <BalanceCard/>
+					<BalanceCard />
 				</div>
 			</div>
 		</>
 	);
-}
-export default Admin 
+};
+export default Admin;

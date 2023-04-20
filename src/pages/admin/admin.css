@@ -223,9 +223,23 @@
 	font-weight: 400;
 }
 
-.userbtncrd p{
+.userbtncrd p {
 	color: rgb(3, 167, 85);
 	font-weight: 600;
 	font-family: "Lato", sans-serif;
 	font-size: 14px;
 }
+
+.navlinks a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.icons {
+	font-size: 20px;
+}
+
+/* .navtops a i {
+	font-size: 18px;
+} */
