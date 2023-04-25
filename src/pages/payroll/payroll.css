@@ -1,0 +1,8 @@
+.payroll-items {
+  display: flex;
+}
+
+.payroll {
+  width: 90%;
+  height: 100vh;
+}
